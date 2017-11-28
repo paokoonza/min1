@@ -126,14 +126,14 @@ class LINE extends LineAPI {
            if(operation.type == 16 && this.stateStatus.bmsg == 1) {
              let itil = new Message();
              itil.to = operation.param1;
-             itil.text = "●My เชลล์บอท มิน●\nขอบคุณสำหรับคำเชิญนะครับ\n\n→♡BY. มิน Hack BOT♡←\n\n[™௮ิю🌹のՃສิ७Ҩ์🌹☆]\n\nเอาแม่งยาววววววววววววววววววววววว" 
+             itil.text = "●My เชลล์บอท มิน●\nขอบคุณสำหรับคำเชิญนะครับ\n\n→♡BY. มิน Hack BOT♡←\n\n[™௮ิю🌹のՃສิ७Ҩ์🌹☆]" 
              this._client.sendMessage(0, itil);
            }
 
            if(operation.type == 19 && this.stateStatus.bmsg == 1 && !isAdminOrBot(operation.param2)) {
              let plerrr = new Message();
              plerrr.to = operation.param1;
-             plerrr.text = "¥เตะผมทำมายยย¥\n\n→♡BY. มิน Hack BOT♡←\n\n[ ™௮ิю🌹のՃສิ७Ҩ์🌹☆]" 
+             plerrr.text = "¥เตะทำมายยย¥\n\n→♡BY. มิน Hack BOT♡←\n\n[ ™௮ิю🌹のՃສิ७Ҩ์🌹☆]" 
              this._client.sendMessage(0, plerrr);
            }
 
@@ -502,7 +502,7 @@ class LINE extends LineAPI {
 \n〠√:[cancel on/off]➣\n
 \n〠√:[bmsg on/off]➣\n
 \n〠√:[be on/off]➣\n
-\n!!!!!Line.➣ ID[socool270]!!!!!!\n
+\n!!!!!Line.➣ ID[socool270]!!!!!!\n');
 ');
         }
 
